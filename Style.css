@@ -1,0 +1,145 @@
+nav{
+   position: fixed;
+   background-color: skyblue;
+   width: 100%;
+   height: 70px;
+   z-index: 1;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	position: fixed;
+	left: 5%;
+	color: white;
+	line-height: 70px;
+}
+ul{
+	position: relative;
+	float:right;
+	margin-right: 70px;
+}
+ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+}
+li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+.main_img{
+	width: 100%;
+	height: 500px;
+}
+.Section{
+	padding-top: 70px;
+}
+.img_text{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	color: white;
+	background-color:mediumblue;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 40px;
+}
+.welcome_sc{
+	width: 100%;
+	height: 250px;
+}
+.container{
+	padding-top: 70px;
+}
+.lebel_text{
+	display: inline-block;
+	width: 70px;
+	text-align: right;
+	padding-right:50px ;
+	font-weight: bold;
+}
+.input_deg{
+	width: 30%;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid blue;
+}
+.dev_f{
+	padding-top: 10px;
+}
+.input_txt{
+	width: 30%;
+	height: 120px;
+	border-radius: 20px;
+	border: 1px  solid blue;
+
+}
+#submit{
+	position: relative;
+	width: 15%;
+	left: 5%;
+	margin-bottom:30px ;
+}
+footer{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+}
+.footer_text{
+	text-align: center;
+	position: relative;
+	top: 20%;
+	color: white;
+}
+.cent{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.center{
+	padding-bottom: 10px;
+}
+.header{
+   background-color: skyblue;
+   height: 70px;
+   padding-left: 50px;
+}
+.logout{
+	padding-top: 10px;
+	float: right;
+	padding: right;
+}
+.aside{ 
+	position: fixed;
+	top: 0;
+	background-color:#424a5b;
+	width: 20%;
+	height:100% ;
+	position: fixed;
+	padding-top: 5%;
+	text-align: center;
+}
+.li{
+
+	list-style: none;
+	padding-bottom: 50px;
+	font-size: 18px;
+
+}
+.li .a {
+	display: block;
+	font-weight: bold;
+	color: white;
+}
+.aside .li .a:hover{
+	color: skyblue;
+	text-decoration: none;
+}
